@@ -7,7 +7,20 @@ Autonomous vehicles should make transportation safer but there will be unavoidab
 I'm going to analyze the responses to various scenarios and try to understand and visualize how this information could influence decision making of a machine learning algorithm.
 
 ### Sources
-Moral Machine project - https://www.moralmachine.net/
-The social dilemma of autonomous vehicles - https://www.media.mit.edu/publications/the-social-dilemma-of-autonomous-vehicles/
-Moral Machine dataset on OSF - https://osf.io/3hvt2/?view_only=4bb49492edee4a8eb1758552a362a2cf
+Moral Machine project https://www.moralmachine.net/
+
+The social dilemma of autonomous vehicles https://www.media.mit.edu/publications/the-social-dilemma-of-autonomous-vehicles/
+
+Moral Machine dataset on OSF https://osf.io/3hvt2/?view_only=4bb49492edee4a8eb1758552a362a2cf
+
+
+* imported the csv file to a Spark DF and created a schema to cast numbers to integer type
+
+* SharedResponses.csv had 70,332,355 rows and 41 columns
+    * this includes single scenario selections
+    
+* SharedResponsesSurvey.csv had 11,286,141 rows and 27 columns
+    * this includes survey participants' demographic information and their choices
+    
+* converted 100,000 rows to a Pandas DF for EDA
 
