@@ -22,5 +22,7 @@ Moral Machine dataset on OSF https://osf.io/3hvt2/?view_only=4bb49492edee4a8eb17
 * SharedResponsesSurvey.csv had 11,286,141 rows and 27 columns
     * this includes survey participants' demographic information and their choices
     
-* converted 100,000 rows to a Pandas DF for EDA
+* converted 100,000 rows to a Pandas DF from both datasets for EDA
+
+* started creating some charts 
 
