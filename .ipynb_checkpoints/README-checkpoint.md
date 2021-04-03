@@ -24,5 +24,11 @@ Moral Machine dataset on OSF https://osf.io/3hvt2/?view_only=4bb49492edee4a8eb17
     
 * converted 100,000 rows to a Pandas DF from both datasets for EDA
 
-* started creating some charts 
+* Transposed the DFs to better understand all the columns
+
+* Checked the # of responses by country and surprisingly Hungary had a pretty good representation given its size
+
+* created a Spark SQL query to merge SharedResponses and SharedResponsesSurvey datasets for a subset of responses from Hungary only ordered by user ID, response ID and scenario to gain a better understanding of how those two tables relate to each other (this almost put my laptop on fire, but it should give me a more managable size of DF to do EDA on)
+
+
 
