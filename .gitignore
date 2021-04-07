@@ -37,6 +37,4 @@ ehthumbs.db
 Thumbs.db
 
 # Big data files
-data/SharedResponses.csv
-data/SharedResponsesSurvey.csv
-data/datasets/
+data/
