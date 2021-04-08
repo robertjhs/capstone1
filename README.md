@@ -15,21 +15,16 @@ Moral Machine dataset on OSF https://osf.io/3hvt2/?view_only=4bb49492edee4a8eb17
 
 
 * imported the csv file to a Spark DF and created a schema to cast numbers to integer type
-
 * SharedResponses.csv had 70,332,355 rows and 41 columns
     * this includes single scenario selections
-    
 * SharedResponsesSurvey.csv had 11,286,141 rows and 27 columns
     * this includes survey participants' demographic information and their choices
-    
 * converted 100,000 rows to a Pandas DF from both datasets for EDA
-
 * Transposed the DFs to better understand all the columns
-
 * Checked the # of responses by country and surprisingly Hungary had a pretty good representation given its size
-
 * created a Spark SQL query to merge SharedResponses and SharedResponsesSurvey datasets for a subset of responses from Hungary only ordered by user ID, response ID and scenario to gain a better understanding of how those two tables relate to each other (this almost put my laptop on fire, but it should give me a more managable size of DF to do EDA on)
-
-* 
+* include data pipleline - download - Spark - SQL - Pandas
+* intro to help understand the background - trolley problem
+* explain in future work the challenges with this whole thing
 
 
