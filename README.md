@@ -13,6 +13,8 @@ I'm going to analyze the responses to various scenarios and try to understand an
 
 ### Sources
 
+The trolley problem https://en.wikipedia.org/wiki/Trolley_problem
+
 Moral Machine project https://www.moralmachine.net/
 
 The social dilemma of autonomous vehicles https://www.media.mit.edu/publications/the-social-dilemma-of-autonomous-vehicles/
