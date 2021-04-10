@@ -57,7 +57,7 @@ First I looked at all the different scenario types, and decided to work with the
 
 * Utilitarian refers to a situation when different choices mean less or more characters would die.
 * Species typically requires a choice between humans and animals (cats or dogs).
-* Gender scenario types include young and old people in them to decide who should live or die.
+* Gender scenario is pretty self explanatory
 
 ![Scenario types](images/scenario_types.png)
 
