@@ -1,7 +1,7 @@
 # EthiCars
 ## Can autonomous vehicles make ethical decisions one day?
 
-
+![AV at pedestrian crossing](images/AV_crossing.jpg)
 
 ### Description
 
